@@ -1,0 +1,6 @@
+.Box {
+  border-radius: 20%;
+  box-shadow: 4px 4px 4px grey;
+  display: block;
+  vertical-align: middle;
+}
