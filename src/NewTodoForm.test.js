@@ -1,12 +1,12 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import Box from "./Box";
+import NewTodoForm from "./NewTodoForm";
 
 test("BoxList renders", () => {
-  render(<Box />);
+  render(<NewTodoForm />);
 });
 
 it("matches snapshot", function () {
-  const { asFragment } = render(<Box />);
+  const { asFragment } = render(<NewTodoForm />);
   expect(asFragment()).toMatchSnapshot();
 });

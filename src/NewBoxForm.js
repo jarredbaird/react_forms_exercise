@@ -26,6 +26,7 @@ const NewBoxForm = ({ addBox }) => {
           type="text"
           name="color"
           placeholder="Box Color"
+          data-testid="color"
           value={formData.color}
           onChange={handleChange}
         />
@@ -38,6 +39,7 @@ const NewBoxForm = ({ addBox }) => {
           type="text"
           name="width"
           placeholder="Box Width"
+          data-testid="width"
           value={formData.width}
           onChange={handleChange}
         />
@@ -50,6 +52,7 @@ const NewBoxForm = ({ addBox }) => {
           type="text"
           name="height"
           placeholder="Box Height"
+          data-testid="height"
           value={formData.height}
           onChange={handleChange}
         />

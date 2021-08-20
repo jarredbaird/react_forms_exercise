@@ -11,7 +11,7 @@ const Box = ({ id, color, width, height, removeBox }) => {
 
   return (
     <div style={style}>
-      <div className="Box" style={style}></div>
+      <div className="Box" style={style} data-testid="box"></div>
       <button onClick={remove}>X</button>
     </div>
   );

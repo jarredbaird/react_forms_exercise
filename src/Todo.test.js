@@ -1,12 +1,12 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import Box from "./Box";
+import Todo from "./Todo";
 
-test("BoxList renders", () => {
-  render(<Box />);
+test("Todo renders", () => {
+  render(<Todo />);
 });
 
 it("matches snapshot", function () {
-  const { asFragment } = render(<Box />);
+  const { asFragment } = render(<Todo />);
   expect(asFragment()).toMatchSnapshot();
 });
